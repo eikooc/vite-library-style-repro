@@ -1,0 +1,21 @@
+{
+  "name": "ui-components",
+  "version": "0.0.1",
+  "description": "UI components used in Pensure's systems",
+  "module": "dist/ui-components.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.0.4"
+  },
+  "devDependencies": {
+    "vite": "^2.0.0-beta.26",
+    "@vue/compiler-sfc": "^3.0.4",
+    "@vitejs/plugin-vue": "1.0.5"
+  }
+}
